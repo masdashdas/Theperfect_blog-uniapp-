@@ -1,0 +1,71 @@
+{
+	"passwordSecret": "passwordSecret-demo",
+	"tokenSecret": "tokenSecret-demo",
+	"tokenExpiresIn": 604800,
+	"tokenExpiresThreshold": 259200,
+	"tokenMaxLimit": 10,
+	"passwordErrorLimit": 6,
+	"bindTokenToDevice": false,
+	"passwordErrorRetryTime": 3600,
+	"autoSetInviteCode": true,
+	"forceInviteCode": false,
+	"preferedAppPlatform": "app-plus",
+	"preferedWebPlatform": "h5",
+	"removeDcloudAppid": false,
+	"app-plus": {
+		"tokenExpiresIn": 604800,
+		"tokenExpiresThreshold": 259200,
+		"oauth": {
+			"weixin": {
+				"appid": "wx208e19e3887602e0",
+				"appsecret": "105a4f3533d78fc5a9c1119bc1db5355"
+			}
+		}
+	},
+	"mp-weixin": {
+		"oauth": {
+			"weixin": {
+				"appid": "wx208e19e3887602e0",
+				"appsecret": "105a4f3533d78fc5a9c1119bc1db5355"
+			}
+		}
+	},
+	"h5-weixin": {
+		"oauth": {
+			"weixin": {
+				"appid": "wx208e19e3887602e0",
+				"appsecret": "105a4f3533d78fc5a9c1119bc1db5355"
+			}
+		}
+	},
+	"mp-alipay": {
+		"oauth": {
+			"alipay": {
+				"appid": "",
+				"privateKey": ""
+			}
+		}
+	},
+	"mp-qq": {
+		"oauth": {
+			"qq": {
+				"appid": "",
+				"appsecret": ""
+			}
+		}
+	},
+	"service": {
+		"sms": {
+			"name": "重要",
+			"codeExpiresIn": 180,
+			"templateId": "",
+			"smsKey": "",
+			"smsSecret": ""
+		},
+		"univerify": {
+			"appid": "",
+			"apiKey": "",
+			"apiSecret": ""
+		}
+	}
+}
