@@ -1,6 +1,3 @@
-好的,我来帮你创建一个中文版的 README.md:
-
-```markdown:README.md
 # LtqsBlog 博客系统
 
 一个基于 Vue 和 UniCloud 构建的现代化博客系统,包含前台展示和后台管理两个界面。
